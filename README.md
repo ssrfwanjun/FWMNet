@@ -11,8 +11,8 @@ Official implementation of the paper:
 ## 🚀 Quick Start
 
 ### Installation
-conda create -n fwmnet python=3.10
-conda activate fwmnet
+conda create -n fwmnet python=3.10 |
+conda activate fwmnet |
 pip install -r requirements.txt
 
 # Research Overview
