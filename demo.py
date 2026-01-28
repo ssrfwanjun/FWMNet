@@ -13,8 +13,8 @@ import argparse
 from model.FWMNet import FWMNet
 
 parser = argparse.ArgumentParser(description='Demo Image Restoration')
-parser.add_argument('--input_dir', default='./datasets/traindata/train/input/raw', type=str, help='Input images')
-parser.add_argument('--result_dir', default='./results/1030', type=str, help='Directory for results')
+parser.add_argument('--input_dir', default='./datasets/traindata/train/input', type=str, help='Input images')
+parser.add_argument('--result_dir', default='./results/traindata', type=str, help='Directory for results')
 parser.add_argument('--weights',
                     default='./checkpoints/FWMNet-64-4-dwt1-patch512/models/model_bestSSIM.pth', type=str,
                     help='Path to weights')
@@ -95,3 +95,4 @@ for file_ in files:
 
 print(f"Files saved at {out_dir}")
 print('finish !')
+
