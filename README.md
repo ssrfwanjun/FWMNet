@@ -20,7 +20,7 @@ conda activate fwmnet
 pip install -r requirements.txt
 ```
 # Research Overview
-<img src="https://github.com/ssrfwanjun/FWMNet/tree/main/overview.png" width="50%">
+<img src="https://raw.githubusercontent.com/ssrfwanjun/FWMNet/main/overview.png" width="50%">
 ## 🧪 Background and Motivation
 
 Terahertz (THz) radiation (0.1-10 THz) has emerged as a powerful modality for security screening and biomedical imaging due to its unique properties: non-ionizing nature, material penetration capability, and molecular fingerprinting. However, traditional THz imaging systems face significant limitations in achieving both high speed and high quality simultaneously.
