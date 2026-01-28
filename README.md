@@ -1,13 +1,12 @@
 # FWMNet: Wavelet Transform Attention Network for THz Imaging Enhancement
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/robojun/FWMNet)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/datasets/robojun/THz_imaging)
 Official implementation of the paper:  
 **"Wavelet Transform Attention Network for Low-Exposure THz Image Enhancement in Rydberg Atomic Systems"**
 
 > **Abstract**: This work proposes a novel Full-Wavelet Attention Network (FWMNet) to address the challenges of low exposure and high noise in Rydberg atom THz imaging systems. By integrating discrete wavelet transform with channel-spatial attention mechanisms, our method achieves state-of-the-art performance in THz image reconstruction.
 
 ## 🚀 Quick Start
-
+-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/robojun/FWMNet)
+-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/datasets/robojun/THz_imaging)
 ### Installation
 ```bash
 # Create conda environment
@@ -18,6 +17,9 @@ conda activate fwmnet
 
 # Install dependencies
 pip install -r requirements.txt
+
+# eval
+python evaluate_fwmnet.py
 ```
 # Research Overview
 <img src="https://raw.githubusercontent.com/ssrfwanjun/FWMNet/main/overview.png" width="100%">
