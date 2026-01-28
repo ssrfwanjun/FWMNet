@@ -1,8 +1,6 @@
 # FWMNet: Wavelet Transform Attention Network for THz Imaging Enhancement
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/robojun/FWMNet)
-
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/datasets/robojun/THz_imaging)
 Official implementation of the paper:  
 **"Wavelet Transform Attention Network for Low-Exposure THz Image Enhancement in Rydberg Atomic Systems"**
 
@@ -11,10 +9,16 @@ Official implementation of the paper:
 ## 🚀 Quick Start
 
 ### Installation
-- conda create -n fwmnet python=3.10
-- conda activate fwmnet
-- pip install -r requirements.txt
+```bash
+# Create conda environment
+conda create -n fwmnet python=3.10
 
+# Activate environment
+conda activate fwmnet
+
+# Install dependencies
+pip install -r requirements.txt
+```
 # Research Overview
 
 ## 🧪 Background and Motivation
