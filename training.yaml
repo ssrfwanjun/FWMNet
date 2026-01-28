@@ -1,0 +1,35 @@
+# Training configuration
+GPU: [0]
+
+VERBOSE: False
+
+MODEL:
+  MODE: 'FWMNet-64-4-dwt1-patch512'
+
+# Optimization arguments.
+OPTIM:
+  BATCH: 4
+  EPOCHS: 200
+  # EPOCH_DECAY: [10]
+  LR_INITIAL: 1e-4
+  LR_MIN: 1e-6
+  # BETA1: 0.9
+
+TRAINING:
+  VAL_AFTER_EVERY: 1
+  RESUME: False
+  TRAIN_PS: 256
+  VAL_PS: 512
+  TRAIN_DIR: './datasets/traindata/train'       # path to training data
+  VAL_DIR: './datasets/traindata/train' # path to validation data
+  SAVE_DIR: './checkpoints'           # path to save models and images
+
+#FWMNet-32-5-dwt2    PSNR:30.1819   SSIM:0.7834
+#FWMNet-32-4-dwt2    PSNR:30.0907   SSIM:0.7828
+#FWMNet-32-5-dwt1    PSNR:30.1768   SSIM:0.7836
+#FWMNet-32-4-dwt1    PSNR:30.1417   SSIM:0.7836     patch1024: PSNR:32.4882   SSIM:0.8689     patch256:PSNR:32.8778   SSIM:0.8685  patch128:PSNR:32.1522   SSIM:0.8656
+
+#FWMNet-16-3-dwt1    PSNR:28.1208   SSIM:0.7785
+#FWMNet-16-4-dwt1    PSNR:29.0681   SSIM:0.7801
+#FWMNet-32-3-dwt1    PSNR:30.0010   SSIM:0.7804
+
