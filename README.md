@@ -29,7 +29,7 @@ Rydberg atom-based THz detection represents a breakthrough technology that lever
 
 ## 🔬 Problem Statement
 
-Despite the theoretical advantages of Rydberg atom detection, practical high-speed imaging (e.g., >100 fps) introduces critical challenges:
+Despite the theoretical advantages of Rydberg atom detection, practical high-speed imaging (e.g., 100 fps) introduces critical challenges:
 
 - **Severe underexposure**: Millisecond-scale exposure times drastically reduce signal photon counts
 - **Low signal-to-noise ratio (SNR)**: Readout noise and fluorescence background degrade image quality
