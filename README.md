@@ -5,7 +5,7 @@ Official implementation of the paper:
 > **Abstract**: This work proposes a novel Full-Wavelet Attention Network (FWMNet) to address the challenges of low exposure and high noise in Rydberg atom THz imaging systems. By integrating discrete wavelet transform with channel-spatial attention mechanisms, our method achieves state-of-the-art performance in THz image reconstruction.
 
 ## 🚀 Quick Start
-### propare model and datasets 
+### Propare model and datasets 
 - Pretrained model:[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/robojun/FWMNet)
 - Datasets:[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/datasets/robojun/THz_imaging)
 ### Installation
