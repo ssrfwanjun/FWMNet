@@ -91,7 +91,7 @@ The method successfully demonstrates real-time capability in capturing dynamic p
 ### Dataset Construction
 Carefully curated paired dataset acquired through controlled acquisition protocol:
 - **300 image pairs** (270 training, 30 testing)
-- **Precise alignment**: Same scene captured at different frame rates (100 fps vs 10 fps)
+- **Precise alignment**: Same scene captured at different frame rates (100+ fps vs 10 fps)
 - **Diverse samples**: Metal targets, optical elements, fluidic devices
 - **Quality assurance**: Strict spatial alignment and content verification
 
