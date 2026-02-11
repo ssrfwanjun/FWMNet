@@ -95,7 +95,7 @@ Carefully curated paired dataset acquired through controlled acquisition protoco
 - **Diverse samples**: Metal targets, optical elements, fluidic devices
 - **Quality assurance**: Strict spatial alignment and content verification
 
-<video src="./test/demo.mp4" autoplay loop muted playsinline width="100%"></video>
+<video src="./results/test/chopper.mp4" autoplay loop muted playsinline width="100%"></video>
 
 ### Ablation Studies
 Systematic evaluation confirms optimal configuration:
