@@ -94,7 +94,7 @@ Carefully curated paired dataset acquired through controlled acquisition protoco
 - **Precise alignment**: Same scene captured at different frame rates (100+ fps vs 10 fps)
 - **Diverse samples**: Metal targets, optical elements, fluidic devices
 - **Quality assurance**: Strict spatial alignment and content verification
-![demo video](./test/demo.mp4)
+<video src="./result/test/chopper.mp4" controls width="640" height="360" muted autoplay loop></video>
 ### Ablation Studies
 Systematic evaluation confirms optimal configuration:
 - **64 convolutional filters** with **4-level depth** provides best performance-complexity tradeoff
