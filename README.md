@@ -3,7 +3,7 @@ Official implementation of the paper:
 **"Wavelet Transform Attention Network for Low-Exposure THz Image Enhancement in Rydberg Atomic Systems"**
 
 > **Abstract**: This work proposes a novel Full-Wavelet Attention Network (FWMNet) to address the challenges of low exposure and high noise in Rydberg atom THz imaging systems. By integrating discrete wavelet transform with channel-spatial attention mechanisms.
-<video src="https://github.com/ssrfwanjun/FWMNet/results/test/chopper.mp4" autoplay loop muted playsinline width="50%"></video>
+<video src="https://github.com/ssrfwanjun/FWMNet/results/test/chopper.mp4" autoplay loop muted playsinline width="50%">
 ## 🚀 Quick Start
 ### Propare model and datasets 
 - Pretrained model:[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/robojun/FWMNet)
