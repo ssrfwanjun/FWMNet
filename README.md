@@ -2,8 +2,8 @@
 Official implementation of the paper:  
 **"Wavelet Transform Attention Network for Low-Exposure THz Image Enhancement in Rydberg Atomic Systems"**
 
-> **Abstract**: This work proposes a novel Full-Wavelet Attention Network (FWMNet) to address the challenges of low exposure and high noise in Rydberg atom THz imaging systems. By integrating discrete wavelet transform with channel-spatial attention mechanisms, our method achieves state-of-the-art performance in THz image reconstruction.
-
+> **Abstract**: This work proposes a novel Full-Wavelet Attention Network (FWMNet) to address the challenges of low exposure and high noise in Rydberg atom THz imaging systems. By integrating discrete wavelet transform with channel-spatial attention mechanisms.
+![Demo Video](./results//test/chopper.mp4)
 ## 🚀 Quick Start
 ### Propare model and datasets 
 - Pretrained model:[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/robojun/FWMNet)
@@ -94,8 +94,6 @@ Carefully curated paired dataset acquired through controlled acquisition protoco
 - **Precise alignment**: Same scene captured at different frame rates (100+ fps vs 10 fps)
 - **Diverse samples**: Metal targets, optical elements, fluidic devices
 - **Quality assurance**: Strict spatial alignment and content verification
-
-<video src="./results/test/chopper.mp4" autoplay loop muted playsinline width="100%"></video>
 
 ### Ablation Studies
 Systematic evaluation confirms optimal configuration:
